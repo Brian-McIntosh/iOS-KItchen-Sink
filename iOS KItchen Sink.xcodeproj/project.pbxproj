@@ -13,6 +13,7 @@
 		25B4E057294A2CCE008E41FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B4E055294A2CCE008E41FD /* Main.storyboard */; };
 		25B4E059294A2CD0008E41FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25B4E058294A2CD0008E41FD /* Assets.xcassets */; };
 		25B4E05C294A2CD0008E41FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B4E05A294A2CD0008E41FD /* LaunchScreen.storyboard */; };
+		25B4E065294A2DBB008E41FD /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B4E064294A2DBB008E41FD /* CoinDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		25B4E058294A2CD0008E41FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25B4E05B294A2CD0008E41FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25B4E05D294A2CD0008E41FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25B4E064294A2DBB008E41FD /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		25B4E04E294A2CCE008E41FD /* iOS KItchen Sink */ = {
 			isa = PBXGroup;
 			children = (
+				25B4E063294A2D72008E41FD /* Services */,
 				25B4E04F294A2CCE008E41FD /* AppDelegate.swift */,
 				25B4E051294A2CCE008E41FD /* SceneDelegate.swift */,
 				25B4E053294A2CCE008E41FD /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				25B4E05D294A2CD0008E41FD /* Info.plist */,
 			);
 			path = "iOS KItchen Sink";
+			sourceTree = "<group>";
+		};
+		25B4E063294A2D72008E41FD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				25B4E064294A2DBB008E41FD /* CoinDataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25B4E065294A2DBB008E41FD /* CoinDataService.swift in Sources */,
 				25B4E054294A2CCE008E41FD /* ViewController.swift in Sources */,
 				25B4E050294A2CCE008E41FD /* AppDelegate.swift in Sources */,
 				25B4E052294A2CCE008E41FD /* SceneDelegate.swift in Sources */,
